@@ -1,0 +1,11 @@
+# System packages (Debian/Ubuntu/Kubuntu)
+sudo apt install parted dosfstools ntfs-3g exfatprogs e2fsprogs wimtools util-linux pkexec libqt6svg6
+
+# PySide6: pick ONE of the two options
+sudo apt install python3-pyside6.qtwidgets          # from the repositories, if available
+# or, with a virtual environment:
+python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt
+
+# Run
+cd rcfux
+python3 main.py

@@ -6,6 +6,7 @@ sudo apt install python3-pyside6.qtwidgets          # from the repositories, if 
 # or, with a virtual environment:
 python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt
 
-# Run
-cd rcfux
+# Get the code and run
+git clone https://github.com/MrGodLink/RuFux.git
+cd RuFux
 python3 main.py

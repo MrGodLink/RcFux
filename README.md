@@ -33,6 +33,8 @@ python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt
 
 ## Usage
 ```bash
+git clone https://github.com/MrGodLink/RuFux.git
+cd RuFux
 python3 main.py
 ```
 

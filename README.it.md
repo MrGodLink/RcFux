@@ -52,5 +52,16 @@ come root tramite `pkexec` (una richiesta di password per operazione).
 ## Attenzione
 Tutti i dati sul dispositivo scelto vengono cancellati in modo definitivo. Usare a proprio rischio.
 
+## Crediti
+Creato da **Raffaele Catapano** - [github.com/MrGodLink](https://github.com/MrGodLink)
+
+Se riutilizzi, modifichi o ridistribuisci questo progetto, mantieni la nota di copyright e
+cita l'autore originale, come richiesto dalla licenza MIT.
+
+### Altri progetti dell'autore
+- [CISO-Converter](https://github.com/MrGodLink/CISO-Converter) - strumento desktop (PySide6) per convertire ISO in CSO e CSO in ISO, il formato di immagine disco compresso usato da PSP e dai suoi emulatori.
+
 ## Licenza
-MIT - vedi [LICENSE](LICENSE).
+Il codice sorgente è rilasciato con licenza MIT - vedi [LICENSE](LICENSE).
+
+RcFux dipende da [PySide6](https://doc.qt.io/qtforpython/), con licenza LGPLv3 (oppure licenza commerciale Qt). Viene installato separatamente (con `pip` o dalla distribuzione). Se distribuisci un eseguibile incorporato (per esempio creato con PyInstaller), devi rispettare anche i termini LGPL di PySide6 e Qt.
